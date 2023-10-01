@@ -1,14 +1,14 @@
 # canister_azle_app
 
-Welcome to your first Azle project! This example project will help you to deploy your first canister (application) to the Internet Computer (IC) decentralized cloud. It is a simple getter/setter canister. You can always refer to [The Azle Book](https://demergent-labs.github.io/azle/) for more in-depth documentation.
+This is a example of canister project deployed on the Internet Computer (IC) decentralized cloud.
 
-`dfx` is the tool you will use to interact with the IC locally and on mainnet. If you don't already have it installed:
+`dfx` is the tool you will use to interact with the IC locally.
 
 ```bash
 npm run dfx_install
 ```
 
-Next you will want to start a replica, which is a local instance of the IC that you can deploy your canisters to:
+Next you wilwant to start a replica, which is a local instance of the IC that you can deploy your canisters to:
 
 ```bash
 npm run replica_start
@@ -38,10 +38,4 @@ If you run the above commands and then call `npm run canister_call_get_message` 
 
 ```bash
 ("Hello world!")
-```
-
-Assuming you have [created a cycles wallet](https://internetcomputer.org/docs/current/developer-docs/quickstart/network-quickstart) and funded it with cycles, you can deploy to mainnet like this:
-
-```bash
-npm run canister_deploy_mainnet
 ```
